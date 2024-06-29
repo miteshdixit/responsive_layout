@@ -1,0 +1,33 @@
+.my-element {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
+}
+.shadow {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.font-family-sans-serif {
+  font-family: 'Helvetica Neue', sans-serif; 
+}
+/* global.css or any CSS file you are using */
+.icon-style {
+  width: 25px;
+  height: 25px;
+  background: #198754;
+  border-radius: 50%;
+  color: white; /* To ensure the icon color is visible */
+}
+
+.card {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+
+@media (max-width: 768px) {
+  .order-1 {
+    order: 2 !important;
+  }
+  .order-2 {
+    order: 1 !important;
+  }
+}
+
