@@ -3,15 +3,9 @@ import Image from "next/image";
 
 function Testimonials() {
   return (
-    <div className="mw-4xl mx-auto shadow mt-5 mb-5 position-relative">
-      <Image
-        src="/bg1.jpg"
-        alt="Background Image"
-        layout="fill"
-        objectFit="cover"
-        quality={100}
-      />
-      <div className="bg-white px-4 py-12 rounded-3 shadow-sm" style={{ position: "relative", zIndex: 1 }}>
+    <div className="mw-4xl mx-auto shadow mt-5 mb-5 ">
+    
+      <div className="bg-white px-4 py-12 rounded-3 shadow-sm " style={{ position: "relative", zIndex: 1 }}>
         <div className="m-3 mt-5 d-flex align-items-center">
           <IoMdCheckmarkCircle className="icon-style" />
           <h2 className="ms-2">Testimonials</h2>
@@ -28,7 +22,7 @@ function Testimonials() {
                 <div className="row align-items-center g-3">
                   <div className="col-auto">
                     <Image
-                      src="/avatar10.png" // Correct path to your avatar image in the public folder
+                      src="/avatar.jpg" // Correct path to your avatar image in the public folder
                       alt="Avatar"
                       width={60}
                       height={60}
