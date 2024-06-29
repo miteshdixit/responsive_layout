@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SignInButton from "./Signin";
+ 
 
 function Header() {
   return (
@@ -14,7 +15,7 @@ function Header() {
             creativity through coding and software development. I find immense
             joy in crafting solutions to real-world problems using programming
             languages like JavaScript and Python. This hobby allows me to
-            continuously learn and innovate, whether it's building web
+            continuously learn and innovate, whether it&apos;s building web
             applications, automating tasks with scripts, or diving into data
             analysis and machine learning projects. The process of
             problem-solving and creating
