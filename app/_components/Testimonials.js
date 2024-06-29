@@ -3,9 +3,9 @@ import Image from "next/image";
 
 function Testimonials() {
   return (
-    <div className="mw-4xl mx-auto shadow mt-5 mb-5" style={{ position: "relative" }}>
+    <div className="mw-4xl mx-auto shadow mt-5 mb-5 position-relative">
       <Image
-        src="/bg1.jpg" 
+        src="/bg1.jpg"
         alt="Background Image"
         layout="fill"
         objectFit="cover"
@@ -28,7 +28,7 @@ function Testimonials() {
                 <div className="row align-items-center g-3">
                   <div className="col-auto">
                     <Image
-                      src="/path/to/avatar10.png" // Path to your avatar image in the public folder
+                      src="/avatar10.png" // Correct path to your avatar image in the public folder
                       alt="Avatar"
                       width={60}
                       height={60}
